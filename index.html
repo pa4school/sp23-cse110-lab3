@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamwork on JavaScript and HTML</title>
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <header>
+        <h2>Table of content</h2>
+        <nav>
+            <ol>
+                <li><a href="#teamwork-on-javascript-and-html">Teamwork on JavaScript and HTML</a></li>
+                <li><a href="#attendance-list">Attendance list</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished-business-from-last-meeting">Unfinished business from last meeting</a></li>
+                <li><a href="#new-business">New business:</a></li>
+                <li><a href="#miscellaneous-comments--questions--concerns">Miscellaneous comments / questions /
+                        concerns</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#audio-recording-of-the-meeting">Audio recording of the meeting</a></li>
+                <li><a href="#video-recording-of-the-meeting">Video recording of the meeting</a></li>
+                <li><a href="#ltdr">LTDR;</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Teamwork on JavaScript and HTML</h1>
+        <h2>Brainstorming</h2>
+        <h3>Date: April 14, 2023</h3>
+        <hr>
+
+        <section>
+            <h2 id="attendance-list">Attendance list:</h2>
+            <ul>
+                <li><b>Alice</b> (designer)</li>
+                <li><b>Bob</b> (developer)</li>
+                <li><b>Charlie</b> (content creator)</li>
+                <li><b>David</b> (project manager)</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="agenda">Agenda:</h2>
+            <ul>
+                <li>Discuss the role of teamwork and collaboration in web design and development</li>
+                <li><strong>Share ideas and best practices for using JavaScript and HTML</strong></li>
+                <li>Plan the next steps for the project</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="unfinished-business-from-last-meeting">Unfinished business from last meeting:</h2>
+            <ul>
+                <li>None</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="new-business">New business:</h2>
+            <ul>
+                <li>Alice presented a mockup of the website layout and design, using HTML elements and attributes to
+                    structure
+                    the content</li>
+                <li>Bob explained how to use JavaScript to add interactivity and functionality to the website, such as
+                    forms,
+                    audio, video, and details elements</li>
+                <li>Charlie suggested some content ideas for the website, such as headlines, paragraphs, lists, and
+                    links
+                </li>
+                <li>David facilitated the discussion and asked for feedback from the team members</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="miscellaneous-comments--questions--concerns">Miscellaneous comments / questions / concerns:</h2>
+            <ul>
+                <li>Alice asked how to link an external JavaScript file to the HTML document</li>
+                <li>Bob showed how to use the <code>&lt;script&gt;</code> element with the <code>src</code> attribute
+                </li>
+                <li>Charlie asked how to make the website accessible for screen readers and keyboard users</li>
+                <li>David shared some resources on accessibility best practices, such as using <code>alt</code> text for
+                    images, <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> tags for emphasis, and
+                    <code>&lt;a&gt;</code>
+                    tags for links
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <h2 id="pictures">Illustration:</h2>
+        <div class="pictures-container">
+            <figure>
+                <img width="200" height="200" src="./assets/html-css-js.png"
+                    alt="Illustration of a website of client-side">
+                <figcaption>Illustration of a website of client-side</figcaption>
+            </figure>
+        </div>
+        <hr>
+
+        <h2 id="audio-recording-of-the-meeting">Audio recording of the meeting:</h2>
+        <div class="audio-container">
+            <audio controls>
+                <source src="./assets/transcript-audio.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <hr>
+
+        <h2 id="video-recording-of-the-meeting">Video recording of the meeting:</h2>
+        <div class="video-container">
+            <video width="320" height="240" controls>
+                <source src="./assets/transcript-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <hr>
+
+        <article id="ltdr">
+            <h2>LTDR;</h2>
+            <details open>
+                <summary>Summary (TLDR;)</summary>
+                <p>
+                    The team discussed the role of teamwork and collaboration in web design and development. Alice
+                    presented
+                    a mockup of the website layout and design using HTML. Bob explained how to use JavaScript to add
+                    interactivity and functionality to the website. Charlie suggested some content ideas for the
+                    website.
+                    David facilitated the discussion and asked for feedback.
+
+                    -- <span class="author">Anh</span>
+                </p>
+            </details>
+            <p>
+                <em>This is just an example of a brainstorming session on teamwork on JavaScript and HTML.<br> It
+                    is
+                    not a
+                    real meeting.</em>
+            </p>
+        </article>
+        <hr>
+
+        <div class="forms">
+            <h2>Comments/ Questions</h2>
+            <form id="comment-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+                <fieldset id="rating" class="rating">
+                    <legend>Rating:</legend>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1" title="text">1 star</label>
+                </fieldset>
+
+
+                <div class="button-group">
+                    <button type="submit" class="button">Submit</button>
+                    <button class="button clear">Clear</button>
+                </div>
+            </form>
+
+            <h2>Sign up late</h2>
+            <form id="signup-form" method="POST">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="country-select">Country:</label>
+                <select id="country-select" name="country-select">
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                </select>
+
+                <label for="reason">Reason:</label>
+                <input list="reason-list" id="reason" name="reason">
+                <datalist id="reason-list">
+                    <option value="I was sick">
+                    <option value="I was busy">
+                    <option value="I forgot">
+                </datalist>
+
+                <div class="agree-container">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree">Agree with the terms and conditions:</label>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>
+            <small>
+                <em>Trabajo en equipo sobre JavaScript y HTML</em> - 2023
+            </small>
+        </p>
+    </footer>
+
+    <script src="assets/scripts/index.js"></script>
+</body>
+
+</html>
