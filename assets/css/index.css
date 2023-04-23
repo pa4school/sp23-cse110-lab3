@@ -13,6 +13,9 @@
     --font-family: 'Poppins', sans-serif;
     --font-regular: 400;
     --font-bold: 500;
+
+    --dark-green-rgb-alpha: 1, 206, 162, 0.8;
+    --green-hsl: 169, 99%, 37%;
 }
 
 
@@ -127,6 +130,13 @@ hr {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
     width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    background: linear-gradient(to right,
+            rgba(var(--dark-green-rgb-alpha)) 0%,
+            hsla(var(--green-hsl), 0.9) 100%,
+            transparent 50%);
 }
 
 .pictures-container figure {
@@ -262,6 +272,7 @@ footer {
     text-align: center;
 }
 
+/* Back to top button */
 #btt-btn {
     display: inline-block;
     position: fixed;
@@ -277,7 +288,7 @@ footer {
     border-radius: 0.5rem;
 
     background-color: var(--yellow);
-    color: var(--black);
+    color: black;
 }
 
 
