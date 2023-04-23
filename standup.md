@@ -1,5 +1,17 @@
 # Daily Stand Up Note (04/22/2023)
 
+| Name             | Yesterday                              | Today                      | Blockers                      |
+| ---------------- | -------------------------------------- | -------------------------- | ----------------------------- |
+| Faith Rivera     | Reviewed design mockups                | Work on marketing strategy | None                          |
+| Henry Zhang      | Coordinated with Jiaen                 | Check in with developers   | None                          |
+| Chaeyeon Park    | Created design mockups                 | Make revisions             | None                          |
+| Anh Pham         | Finished backend features              | Start frontend integration | Need access to staging server |
+| Dylan Olivares   | Fixed bugs and improved performance    | Continue doing that        | None                          |
+| Jiaen Yu         | Updated project plan                   | Monitor progress           | None                          |
+| Boyu Tian        | Wrote unit tests and documentation     | Code review and QA         | None                          |
+| Nicholas Yousefi | Worked on enhancements and refactoring | Code review and QA         | None                          |
+| Michael Ye       | Worked on enhancements and refactoring | Code review and QA         | None                          |
+
 ## Faith Rivera (Leader)
 - Yesterday, I reviewed the design mockups for the new landing page and gave feedback to Chaeyeon.
 - Today, I will work on the marketing strategy and budget for the launch campaign.
@@ -49,3 +61,4 @@
 - Yesterday, I wrote some unit tests and documentation for the frontend features.
 - Today, I will do some code review and quality assurance for Michael's work.
 - I have no blockers.
+
